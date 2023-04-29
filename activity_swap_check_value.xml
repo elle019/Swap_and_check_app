@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Swap_check_value">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="270dp">
+
+    <EditText
+        android:id="@+id/Input_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type here"
+        android:textColorHint="@color/grey" />
+    <Button
+        android:id="@+id/Button_swap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Input_1"
+        android:backgroundTint="@color/teal_200"
+        android:text="Swap"
+        android:clickable="true" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true">
+
+    <EditText
+        android:id="@+id/Input_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type here"
+        android:textColorHint="@color/grey"/>
+    <Button
+        android:id="@+id/Button_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Check"
+        android:clickable="true"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
